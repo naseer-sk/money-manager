@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.item-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-card-text {
+  font-family: 'Roboto';
+  font-weight: light;
+  font-size: 18px;
+  color: #1e293b;
+  margin-right: auto;
+}
+
+.image {
+  height: 30px;
+  width: 25px;
+}
+
+.button-item {
+  background-color: transparent;
+  border-width: 0px;
+  height: 30px;
+}

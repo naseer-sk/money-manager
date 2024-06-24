@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.details-card {
+  width: 90vw;
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.details-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.details-text {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 18px;
+  color: #7e858e;
+}
+
+.sections {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.form {
+  padding: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-style {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: light;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.button {
+  height: 40px;
+  width: 90px;
+  font-family: 'Roboto';
+  font-weight: light;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7e858e;
+  font-weight: normal;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50vw;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.history-card {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.titles-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.history-card-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #1e293b;
+  margin-right: 110px;
+  width: 120px;
+}
+
+.items-card {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,53 @@
+.card {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-image {
+  width: 90px;
+  height: 50px;
+}
+
+.my-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  width: 28vw;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.balance-card {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-weight: light;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.card-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+  color: #1e293b;
+}
+
+.income-card {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.expenses-card {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
