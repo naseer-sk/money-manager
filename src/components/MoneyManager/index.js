@@ -26,12 +26,16 @@ class MoneyManager extends Component {
     history: [],
   }
 
-  onChange = event => {
-    const {name} = event.target
-    this.setState(prevState => ({
-      ...prevState,
-      [name]: event.target.value,
-    }))
+  onChangeAmount = event => {
+    this.setState({amount: parseInt(event.target.value)})
+  }
+
+  onChangeTitle = event => {
+    this.setState({title: event.target.value})
+  }
+
+  onChangeType = event => {
+    this.setState({type: event.target.value})
   }
 
   onSubmit = () => {
@@ -119,9 +123,8 @@ class MoneyManager extends Component {
                 placeholder="TITLE"
                 id="title"
                 className="input-style"
-                name="title"
                 value={title}
-                onChange={this.onChange}
+                onChange={this.onChangeTitle}
               />
               <br />
               <label className="label-text" htmlFor="amount">
@@ -133,9 +136,8 @@ class MoneyManager extends Component {
                 placeholder="AMOUNT"
                 id="amount"
                 className="input-style"
-                name="amount"
                 value={amount}
-                onChange={this.onChange}
+                onChange={this.onChangeAmount}
               />
               <br />
               <label className="label-text" htmlFor="type">
@@ -147,7 +149,7 @@ class MoneyManager extends Component {
                 className="input-style"
                 id="type"
                 name="type"
-                onChange={this.onChange}
+                onChange={this.onChangeType}
               >
                 {transactionTypeOptions.map(eachItem => (
                   <option value={eachItem.optionId} key={eachItem.optionId}>
